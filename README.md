@@ -9,6 +9,6 @@ This is a website project for Cohort 12 ClickStart by Bath Spa University. The p
 * `script.js`: The JavaScript file for the website
 * `style.css`: The CSS file for the website
 
-The website was created using Genie, a web development tool. The project demonstrates basic HTML, CSS, and JavaScript skills, including styling with CSS, creating a table, and adding padding to elements.
+The website was created using VS Code and Geany, a web development tool. The project demonstrates basic HTML, CSS, and JavaScript skills, including styling with CSS, creating a table, and adding padding to elements.
 
 Feel free to explore the code and learn from it!
