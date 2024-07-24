@@ -1,0 +1,106 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    padding: 1em;
+    text-align: center;
+}
+
+#hero {
+    background-image: linear-gradient(to bottom, #3498db, #f1c40f);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+#about {
+    padding: 2em;
+}
+
+#projects, #skills, #contact {
+    max-width: 800px; /* add a max width to these sections */
+    margin: 40px auto; /* add some margin and center the sections */
+    padding: 20px;
+    background-color: #f9f9f9; /* add a light gray background */
+    border: 1px solid #ddd; /* add a light gray border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* add a subtle shadow */
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project {
+    margin: 1em;
+    width: 30%;
+    background-color: #f9f9f9;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+#skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill {
+    margin: 1em;
+    width: 20%;
+    background-color: #f9f9f9;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+#contact {
+    padding: 2em;
+}
+
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.contact-form button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 0.5em;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.social-media a {
+    margin: 0 1em;
+    font-size: 2em;
+    color: #3498db;
+    text-decoration: none;
+}
